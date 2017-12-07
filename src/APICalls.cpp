@@ -718,10 +718,12 @@ void PaperSignals::ParseIntentName(String intentName, String JSONData)
 }
 
 String PaperSignals::getSignalByID(String signalID){
-    char* host = "gweb-paper-signals.firebaseio.com";
-    String url = "/signals/" + signalID + ".json";
+    //char* host = "gweb-paper-signals.firebaseio.com";
+    //String url = "/signals/" + signalID + ".json";
 
-    String payload = getJson(host, url);
+    //String payload = getJson(host, url);
+
+    String payload = TestJson;
 
     DynamicJsonBuffer jsonBuffer;
     JsonObject& root = jsonBuffer.parseObject(payload);

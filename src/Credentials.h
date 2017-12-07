@@ -30,3 +30,5 @@ const String GeoCodingAPiKey = "YOUR_GEOCODING_API_KEY";
 /* Enter the below API key to track stocks on Arrow Signal. */
 const String BarChartAPIKey = "YOUR_BAR_CHART_API_KEY";
 
+const String TestJson = "{\"name\":\"Countdown Signal\",\"result\":{\"metadata\":{\"intentId\":\"2b3256e9-4258-4718-9375-70c07704bc0e\",\"intentName\":\"Timer\",\"matchedParameters\":[{\"dataType\":\"@sys.duration\",\"isList\":false,\"name\":\"duration\",\"required\":false,\"value\":\"$duration\"}],\"nluResponseTime\":154,\"webhookForSlotFillingUsed\":\"false\",\"webhookUsed\":\"true\"},\"parameters\":{\"duration\":{\"amount\":30,\"unit\":\"s\"},\"signal\":\"useModifying\"},\"resolvedQuery\":\"set a timer for 30 seconds\",\"timestamp\":\"2017-12-04T15:27:39.01Z\"},\"verifiedWorking\":true}";
+
